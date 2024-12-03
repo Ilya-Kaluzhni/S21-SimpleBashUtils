@@ -12,7 +12,7 @@ clean:
 
 rebuild: clean s21_grep
 
-test:
+test: s21_grep
 	bash test_grep.sh
 
 format:
