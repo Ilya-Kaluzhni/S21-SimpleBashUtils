@@ -12,7 +12,7 @@ clean:
 
 rebuild: clean s21_cat
 
-test:
+test: s21_cat
 	bash tests_cat.sh
 
 format:
@@ -21,4 +21,4 @@ format:
 	clang-format -style=file:../../materials/linters/.clang-format -i lib_cat.h
 
 cppcheck:
-	cppcheck --enable=all --suppress=missingIncludeSystem s21_grep.c lib_grep.c lib_grep.h
+	cppcheck --enable=all --suppress=missingIncludeSystem s21_cat.c lib_cat.c lib_cat.h
