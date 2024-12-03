@@ -1,0 +1,9 @@
+
+
+
+See integral conversions for implicit conversions from bool to other types and boolean conversions for the implicit conversions from other types to bool.
+    Keywords true and false represent predefined constants.
+        If expression compares not equal to the integer zero, statement-true is executed.
+        657575656
+
+If the type of the expression is different from the return type of the function

@@ -1,0 +1,4 @@
+The constant expression is evaluated at compile time and compared to zero.
+static_assert((2 + 2) % 3 == 1, "Whoa dude, you knew!");
+    Used where one or several out of many branches of code need to be executed according to an integral value.
+The C type system consists of the following types:
